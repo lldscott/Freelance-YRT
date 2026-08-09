@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Calendar</title>
+</head>
+<style>
+    body {
+        background-color: rgba(252, 252, 252, 0.345);
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+    }
+    nav {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+    }
+    nav ul {
+        list-style-type: none;
+        display: inline;
+        margin-right: 20px;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+        
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    @media (max-width: 600px) {
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem;
+        }
+        nav ul {
+            display: flex;
+            margin-right: 1rem;
+        }
+        nav ul li {
+            display: block;
+            margin-right: 1rem;
+            margin-bottom: 10px;
+        }
+        .image-container {
+            flex-direction: column;
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+    }
+</style>
+<body>
+    <img src="yearroundtut.png" alt="Year Round Tutoring!" height="300" width="300">
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li style="float:left;"><a href="main.html">Home</a></li>
+                <li style="float:right;"><a href="contact.html">Contact Us</a></li>
+                <li style="float:right;"><a href="calendar.html">Calendar</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <h1> Schedule Calendar </h1>
+    <div>
+    <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div>
+        <h1> Scheduling Policy </h1>
+        <p>Our policy details go here...</p>
+        </div>
+<div>
+        <h1> Consultation Services </h1>
+        <p>Learn more about the consultation services I offer:</p>
+        <ul>
+            <li>One-on-one tutoring sessions</li>
+            <li>Group study sessions</li>
+            <li>Academic advising</li>
+        </ul>
+    </div>
+
+</body>
+</html>
